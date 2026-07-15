@@ -63,7 +63,7 @@ https://github.com/Jvkrog/FireBot
 
 ---
 
-## WiFi Car (ESP32 Rover)
+## Esp32Cam-Rover (ESP32 Rover)
 
 A browser-controlled robotic rover powered by ESP32 with wireless navigation and live video streaming capabilities.
 
@@ -77,7 +77,7 @@ A browser-controlled robotic rover powered by ESP32 with wireless navigation and
 
 **Repository**
 
-https://github.com/Jvkrog/Wifi-Car
+https://github.com/Jvkrog/Esp32Cam-Rover
 
 ---
 
