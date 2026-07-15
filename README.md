@@ -8,6 +8,24 @@ This repository serves as an index of my embedded projects developed using ESP32
 
 # Projects
 
+## Autonomous Rover
+
+An autonomous robotics platform built around **ESP32**, **ESP32-CAM**, and **TFmini LiDAR**, capable of both manual and autonomous navigation through a browser-based dashboard.
+
+### Features
+
+- TFmini LiDAR-based obstacle detection
+- ESP32-CAM live video streaming
+- Browser dashboard for remote control
+- Manual directional controls
+- Mobile gyroscope steering
+- Autonomous obstacle avoidance mode
+- Real-time WiFi operation
+
+**Repository**
+
+https://github.com/Jvkrog/Autonomous-Rover
+
 ## Smart Wrist Band
 
 A wearable safety and monitoring system designed around motion sensing and real-time emergency notifications.
