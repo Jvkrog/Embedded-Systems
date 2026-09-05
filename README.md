@@ -2,11 +2,39 @@
 
 > Collection of embedded systems, IoT, and robotics projects built during my engineering journey.
 
-This repository serves as an index of my embedded projects developed using ESP32, ESP8266, Arduino, sensors, wireless communication, and real-time embedded programming.
+This repository serves as an index of my embedded projects developed using ESP32, ESP32-CAM, ESP8266, Arduino, sensors, wireless communication, robotics, and real-time embedded programming.
 
 ---
 
 # Projects
+
+## Smart Assistive Glasses
+
+An ESP32-based assistive smart eyewear prototype for **obstacle proximity awareness, predictive fall detection, haptic feedback, audible alerts, and remote emergency notification**.
+
+The prototype combines a TFmini distance sensor, MPU6050 IMU, ESP32, vibration feedback, buzzer output, Wi-Fi, and asynchronous Telegram communication.
+
+### Features
+
+- Real-time obstacle proximity detection
+- TFmini UART distance sensing
+- Progressive vibration feedback based on obstacle distance
+- MPU6050 accelerometer and gyroscope monitoring
+- Predictive pre-fall detection
+- Impact-based fall confirmation
+- Audible emergency indication
+- Telegram emergency notifications over Wi-Fi
+- Non-blocking asynchronous Telegram communication
+- Wi-Fi reconnection handling
+- FreeRTOS-based task separation
+
+**Repository**
+
+https://github.com/Jvkrog/SmartAssistiveBlindGlasses
+
+> **Patent note:** The associated patent specification describes a broader smart assistive eyewear architecture. The public repository contains a prototype implementation and does not necessarily implement every element described or claimed in the patent specification.
+
+---
 
 ## Autonomous Rover
 
@@ -20,11 +48,13 @@ An autonomous robotics platform built around **ESP32**, **ESP32-CAM**, and **TFm
 - Manual directional controls
 - Mobile gyroscope steering
 - Autonomous obstacle avoidance mode
-- Real-time WiFi operation
+- Real-time Wi-Fi operation
 
 **Repository**
 
 https://github.com/Jvkrog/Autonomous-Rover
+
+---
 
 ## Smart Wrist Band
 
@@ -70,7 +100,7 @@ A browser-controlled robotic rover powered by ESP32 with wireless navigation and
 ### Features
 
 - ESP32-CAM live video streaming
-- WiFi browser control
+- Wi-Fi browser control
 - L298N motor driver
 - Real-time wireless navigation
 - Embedded web interface
@@ -93,15 +123,17 @@ https://github.com/Jvkrog/Esp32Cam-Rover
 ### Sensors
 
 - MPU6050
+- TFmini LiDAR / distance sensing
 - DHT11
-- TFmini LiDAR
 - Flame Sensors
 - Ultrasonic Sensors
 
 ### Communication
 
-- WiFi
+- Wi-Fi
 - HTTP
+- UART
+- I²C
 - Telegram Bot API
 - Blynk
 
@@ -109,8 +141,11 @@ https://github.com/Jvkrog/Esp32Cam-Rover
 
 - Arduino C/C++
 - Embedded Firmware
+- FreeRTOS
 - Sensor Integration
+- Sensor Fusion
 - Motor Control
+- Real-Time Monitoring
 
 ---
 
@@ -119,18 +154,23 @@ https://github.com/Jvkrog/Esp32Cam-Rover
 These projects helped build practical experience in:
 
 - Embedded firmware development
+- Real-time embedded systems
+- Sensor integration and fusion
 - IoT system design
-- Sensor fusion
 - Wireless communication
-- Real-time monitoring
-- Robotics
+- Robotics and autonomous navigation
+- Haptic and actuator control
+- Remote monitoring and alerting
+- Hardware-software integration
 - Rapid prototyping
 
 ---
 
 # Current Focus
 
-My current engineering work has shifted toward backend systems and autonomous trading infrastructure through **TAlgo-X**, while these projects represent the foundation of my embedded systems experience.
+My engineering work has expanded from embedded systems into **backend engineering and autonomous trading infrastructure through TAlgo-X**.
+
+These projects represent the embedded-systems foundation behind that progression, covering low-level hardware interaction, real-time sensing, wireless systems, robotics, and safety-oriented control logic.
 
 ---
 
