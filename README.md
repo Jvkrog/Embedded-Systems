@@ -32,6 +32,16 @@ The prototype combines a TFmini distance sensor, MPU6050 IMU, ESP32, vibration f
 
 https://github.com/Jvkrog/SmartAssistiveBlindGlasses
 
+##  Patent Published
+
+**Indian Patent Application:** IN202641109639
+
+**Title:** *Wearable Eyewear-Based Assistive Navigation System with Multi-Sensor Hazard Detection, Adaptive Haptic Feedback, and Autonomous Emergency Alerting for Visually Impaired Users*
+
+**Status:** Published
+
+**Publication Date:** 18 September 2026
+
 > **Patent note:** The associated patent specification describes a broader smart assistive eyewear architecture. The public repository contains a prototype implementation and does not necessarily implement every element described or claimed in the patent specification.
 
 ---
